@@ -1,0 +1,27 @@
+﻿@model VendorListViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="col s12">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+            <a asp-action="EditVendor" asp-controller="Vendor" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.Name</a>
+        </div>
+    </div>
+
+<form asp-controller="Vendor" asp-action="EditVendor" method="post" class="col-s06">
+
+    <input type="hidden" name="VendorId" id="VendorId" value="@Model.VendorId" />
+    <div class="row">
+        <div class="input-field col s3">
+            <input asp-for="Name" type="text" class="validate">
+            @*<label asp-for="Name">@Model.Name</label>*@
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+           Edit Vendor
+            <i class="material-icons right"></i>
+        </button>
+    </div>
+
+</form>

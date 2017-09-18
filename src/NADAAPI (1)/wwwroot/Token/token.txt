@@ -1,0 +1,1 @@
+0e333ecf-2fe4-4425-b76f-1ed74518cbf0|5174539d-6e1c-4572-b12e-03cd0c872b16|http://nada.mpxstage.com:80/api/v1|ba662a42-16f3-453c-b936-399ad13fe570|http://nada.mpxstage.com/api/v1/signup/authenticate

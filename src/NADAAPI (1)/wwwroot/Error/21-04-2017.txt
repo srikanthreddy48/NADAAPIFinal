@@ -1,0 +1,18 @@
+***********************************************************************
+4/21/2017 8:07:57 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at NADAAPI.Repository.ImpexiumRepository.<GetImpexiumAccessToken>d__8.MoveNext() in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Repository\ImpexiumRepository.cs:line 259
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NADAAPI.Repository.ImpexiumRepository.<ValidateToken>d__15.MoveNext() in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Repository\ImpexiumRepository.cs:line 445
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NADAAPI.Controllers.ImpexiumController.<StoresByGroupIdLive>d__7.MoveNext() in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 282
+__________________________
+StoresByGroupIdLive
+__________________________
+***********************************************************************

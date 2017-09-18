@@ -1,0 +1,25 @@
+﻿@model VendorListViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="col s3">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+            <a asp-action="CreateVendor" asp-controller="Vendor" class="breadcrumb light-blue-text">Add Vendor</a>
+        </div>
+    </div>
+</>
+<form asp-controller="Vendor" asp-action="CreateVendor" method="post" class="col-s06">
+    <div class="row">
+        <div class="input-field col s3">
+            <input asp-for="Name" type="text" class="validate">
+            <label asp-for="Name">VendorName</label>
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+            Add Vendor
+            <i class="material-icons right"></i>
+        </button>
+    </div>
+    
+ </form>

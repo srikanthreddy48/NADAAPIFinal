@@ -1,0 +1,46 @@
+﻿@model AccountViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="col s12">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+            <a asp-action="Index" asp-controller="Home" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.VendorName</a>
+            <a asp-action="EditUser" asp-controller="Home" asp-route-id="@Model.MemberId" asp-route-vendorId="@Model.VendorId" class="breadcrumb brown-text">@Model.Email</a>
+        </div>
+    </div>
+
+
+<form asp-controller="Home" asp-action="DeleteUser" method="post" class="col-s06">
+
+    <input type="hidden" name="MemberId" id="MemberId" value="@Model.MemberId" />
+    <input type="hidden" name="VendorId" id="VendorId" value="@Model.VendorId" />
+    <input type="hidden" name="UserEndPointsId" id="UserEndPointsId" value="@Model.UserEndPoints" />
+    <input type="hidden" name="Email" id="Email" value="@Model.Email" />
+
+   
+   
+   <br />
+    <br />
+        <h5>Name : @Model.Email</h5>
+    <h5>Claims</h5>
+    @{
+        for (int i = 0; i < @Model.UserEndPoints.Count(); i++)
+        {
+            <h6>@Model.UserEndPoints[i]</h6>
+        }
+
+    }
+    <br />
+        <div class="row">
+            <button class="btn waves-effect waves-light" type="submit" name="action">
+                Delete
+                <i class="material-icons right"></i>
+            </button>
+        </div>
+    
+
+    
+
+</form>
+
+

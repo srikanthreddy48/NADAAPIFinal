@@ -1,0 +1,20 @@
+***********************************************************************
+4/7/2017 7:24:50 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot implicitly convert type 'Microsoft.AspNetCore.Mvc.JsonResult' to 'NADAAPI.StoresByGroupId'
+   at CallSite.Target(Closure , CallSite , Object )
+   at CallSite.Target(Closure , CallSite , Object )
+   at NADAAPI.Controllers.ImpexiumController.<DealershipByCompanyIdLive>d__6.MoveNext() in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 255
+__________________________
+DealershipByCompanyIdLive
+__________________________
+***********************************************************************
+***********************************************************************
+4/7/2017 7:25:52 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot implicitly convert type 'Microsoft.AspNetCore.Mvc.JsonResult' to 'NADAAPI.StoresByGroupId'
+   at CallSite.Target(Closure , CallSite , Object )
+   at CallSite.Target(Closure , CallSite , Object )
+   at NADAAPI.Controllers.ImpexiumController.<DealershipByCompanyIdLive>d__6.MoveNext() in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 255
+__________________________
+DealershipByCompanyIdLive
+__________________________
+***********************************************************************

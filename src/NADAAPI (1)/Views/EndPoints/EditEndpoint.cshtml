@@ -1,0 +1,29 @@
+﻿@model EndPointsViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="nav-wrapper">
+            <a asp-controller="EndPoints" asp-action="GetEndpoints" class="breadcrumb light-blue-text">EndPoints</a>
+            <a asp-action="EditEndpoint" asp-controller="EndPoints" asp-route-id="@Model.EndPointId" asp-route-uri="@Model.EndPointUri" class="breadcrumb light-blue-text">@Model.EndPointUri</a>
+        </div>
+    </div>
+
+
+<form asp-controller="EndPoints" asp-action="EditEndpoint" method="post" class="col-s06">
+
+    <input type="hidden" name="EndPointId" id="EndPointId" value="@Model.EndPointId" />
+
+    <div class="row">
+        <div class="input-field col s3">
+            <input asp-for="EndPointUri" type="text" class="validate">
+            @*<label asp-for="Name">@Model.Name</label>*@
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+            Update
+            <i class="material-icons right"></i>
+        </button>
+    </div>
+
+</form>

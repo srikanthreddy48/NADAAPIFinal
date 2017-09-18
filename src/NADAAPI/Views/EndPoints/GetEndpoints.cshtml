@@ -1,0 +1,54 @@
+﻿@model EndPointsViewModel
+
+
+<br /> 
+   <div class="nav-wrapper white">
+        <div class="nav-wrapper">
+            <a asp-controller="EndPoints" asp-action="GetEndpoints" class="breadcrumb light-blue-text">EndPoints</a>
+        </div>
+    </div>
+
+
+<div class="top-buffer"></div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+
+        <div class="top-buffer"></div>
+        <table class="table table-bordered table-striped table-condensed">
+
+            <tbody>
+                @foreach (var item in Model.EndPoints)
+                {
+                    <tr>
+
+                        <td>@Html.DisplayFor(modelItem => item.EndPointUri)</td>
+                        <td>
+                            <a id="editVendorModal" data-toggle="modal" asp-action="EditEndpoint" asp-controller="EndPoints" asp-route-id="@item.Id" asp-route-uri="@item.EndPointUri" data-target="#modal-action-student"
+                               class="btn btn-info">
+                                <i class="glyphicon glyphicon-pencil"></i>  Edit
+                            </a>
+                            <a id="deleteVendorModal" data-toggle="modal" asp-action="DeleteEndpoint" asp-controller="EndPoints" asp-route-id="@item.Id" asp-route-uri="@item.EndPointUri" data-target="#modal-action-student" class="btn btn-danger">
+                                <i class="glyphicon glyphicon-trash"></i>  Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<br />
+<br />
+<div class="btn-group">
+    <a id="createEditVendortModal" data-toggle="modal" asp-action="CreateEndPoint" asp-controller="EndPoints" data-target="#modal-action-student" class="btn btn-primary">
+        <i class="glyphicon glyphicon-plus"></i>  Add EndPoint
+    </a>
+</div>
+
+
+
+
+
+
+

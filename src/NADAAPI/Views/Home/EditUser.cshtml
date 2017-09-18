@@ -1,0 +1,88 @@
+﻿@model AccountViewModel
+
+<br />
+    <div class="nav-wrapper white ">
+        <div class="col s12">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+            @if (Model.Email != null)
+            {
+                    <a asp-action="Index" asp-controller="Home" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.VendorName</a>
+                    <a asp-action="EditUser" asp-controller="Home" asp-route-id="@Model.MemberId" asp-route-vendorId="@Model.VendorId" class="breadcrumb brown-text">@Model.Email</a>
+            }
+            else
+            {
+                 <a asp-action="Index" asp-controller="Home" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.VendorName</a>
+                <a class="breadcrumb brown-text">Add User</a>
+            }
+
+        </div>
+    </div>
+
+
+<form asp-controller="Home" asp-action="EditUser" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="col-s06">
+    
+    
+    <div asp-validation-summary="All" class="text-accent-1"></div>
+    <input type="hidden" name="MemberId" id="MemberId" value="@Model.MemberId"/>
+    <input type="hidden" name="VendorId" id="VendorId" value="@Model.VendorId"/>
+    <input type="hidden" name="VendorName"id="VendorName" value="@Model.VendorName" />
+    
+    <div class="row">
+        <div class="col s12">
+            <div class="row">
+                <div class="input-field col s3">
+                    @if (Model.Email != null)
+                    {
+                        <input asp-for="Email" type="Text" class="black-text" disabled="disabled">
+                        @Html.HiddenFor(Y => Model.Email)
+                    }
+                    else
+                    {
+                        <input asp-for="Email" type="email" class="validate">
+                        <label asp-for="Email">Email</label>
+                        @Html.HiddenFor(Y=>Model.Email)
+                    }
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s3">
+                    <input asp-for="Password" type="password" class="validate">
+                    <label asp-for="Password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s3">
+                    <input asp-for="ConfirmPassword" type="password" class="validate">
+                    <label asp-for="ConfirmPassword">ConfirmPassword</label>
+                </div>
+            </div>
+            <br />
+
+            <h5>Claims</h5>
+            @{
+            for (int i = 0; i < @Model.EndPoints.Count(); i++)
+            {
+        <div>
+            <input asp-for="@Model.EndPoints[i].IsChecked" type="checkbox" />
+            <label asp-for="@Model.EndPoints[i].IsChecked">@Model.EndPoints[i].EndPointUri</label>
+            @Html.HiddenFor(y => @Model.EndPoints[i].EndPointUri)
+        </div>
+            }
+
+            }
+            <br />
+            <br />
+            
+            <div class="row">
+                <button class="btn waves-effect waves-light" type="submit" name="action">
+                    Submit
+                    <i class="material-icons right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</form>

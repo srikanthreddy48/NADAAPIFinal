@@ -1,0 +1,55 @@
+﻿@model VendorListViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="nav-wrapper">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+        </div>
+    </div>
+
+
+<div class="top-buffer"></div>
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <div class="top-buffer"></div>
+        <table class="table table-bordered table-striped table-condensed">
+            <tbody>
+                @foreach (var item in Model.Vendors)
+                {
+                    <tr>
+                        
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>
+                            <a id="editVendorModal" data-toggle="modal" asp-action="Index" asp-controller="Home" asp-route-id="@item.VendorId"  data-target="#modal-action-student"
+                               class="btn btn-info">
+                                <i class="glyphicon glyphicon-pencil"></i>  UserActs
+                            </a>
+                            <a id="editVendorModal" data-toggle="modal" asp-action="EditVendor" asp-controller="Vendor" asp-route-id="@item.VendorId" data-target="#modal-action-student"
+                               class="btn btn-info">
+                                <i class="glyphicon glyphicon-pencil"></i>  Edit
+                            </a>
+                            <a id="deleteVendorModal" data-toggle="modal" asp-action="DeleteVendor"  asp-controller="Vendor" asp-route-id="@item.VendorId" data-target="#modal-action-student" class="btn btn-danger">
+                                <i class="glyphicon glyphicon-trash"></i>  Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+</div>
+<br />
+<br />
+<div class="btn-group">
+    <a id="createEditVendortModal" data-toggle="modal" asp-action="CreateVendor" asp-controller="Vendor" data-target="#modal-action-student" class="btn btn-primary">
+        <i class="glyphicon glyphicon-plus"></i>  Add Vendor
+    </a>
+</div>
+
+
+
+
+  
+
+

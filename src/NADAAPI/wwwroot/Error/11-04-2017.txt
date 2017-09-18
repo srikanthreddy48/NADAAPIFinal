@@ -1,0 +1,247 @@
+***********************************************************************
+4/11/2017 10:51:07 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:c1773182-30a7-40ad-b27d-c8283fe6d169
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:09:21 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:5857c0a2-23ed-448f-8352-61a734a61b6f
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:11:01 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:aee9f15e-cbb2-40cf-b199-701ba36c6301
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:14:13 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:4a489ddb-7ab3-478d-abc6-10cd98039204
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:15:55 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:7731aae0-7f6b-4383-8483-85e46de6c014
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:22:34 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:d85b5132-3f3c-4afe-8115-7f9131ddd174
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 11:32:48 AM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:6d65b25d-0aee-4bb6-83e9-5a6a6c60ded1
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:13:53 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:c9654d67-0887-4ec8-b843-ba4efb58ebb1
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:17:07 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:df015dd1-2793-4134-bd97-d10e8178e95f
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:19:29 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:5337053d-b924-4519-9c64-00330ac9ff7b
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:22:05 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:5337053d-b924-4519-9c64-00330ac9ff7b
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:22:15 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:5337053d-b924-4519-9c64-00330ac9ff7b
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************
+***********************************************************************
+4/11/2017 12:27:39 PM
+<b>Error on page :</b>C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\wwwroot.<br/> <b>Error Message:</b><br/>System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NADAAPI.Controllers.ImpexiumController.StoresByGroupId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 587
+ClientConnectionId:6a7fa6cc-0713-4361-9212-086bebee179a
+Error Number:102,State:1,Class:15
+__________________________
+StoresByGroupId
+__________________________
+***********************************************************************

@@ -1,0 +1,154 @@
+2017-04-03 11:03:12.308 -04:00 [Error] boo!!!
+2017-04-03 11:03:12.646 -04:00 [Information] User profile is available. Using '"C:\Users\skadire\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-03 11:03:13.063 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56871/  0
+2017-04-03 11:03:13.063 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/Vendor/List  
+2017-04-03 11:03:13.297 -04:00 [Information] Request finished in 255.2079ms 200 
+2017-04-03 11:03:13.910 -04:00 [Information] Executing action method "NADAAPI.Controllers.VendorController.List (NADAAPI)" with arguments (null) - ModelState is Valid
+2017-04-03 11:03:15.353 -04:00 [Information] Executed DbCommand (56ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[VendorId], [c].[Name]
+FROM [Vendor] AS [c]
+ORDER BY [c].[Name]
+2017-04-03 11:03:17.984 -04:00 [Information] Executing ViewResult, running view at path "/Views/Vendor/List.cshtml".
+2017-04-03 11:03:18.440 -04:00 [Information] Executed action "NADAAPI.Controllers.VendorController.List (NADAAPI)" in 4715.0792ms
+2017-04-03 11:03:18.465 -04:00 [Information] Request finished in 5456.5448ms 200 text/html; charset=utf-8
+2017-04-03 11:12:45.065 -04:00 [Error] boo!!!
+2017-04-03 11:12:45.481 -04:00 [Information] User profile is available. Using '"C:\Users\skadire\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-03 11:12:46.115 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/Vendor/List  
+2017-04-03 11:12:46.116 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56871/  0
+2017-04-03 11:12:46.496 -04:00 [Information] Request finished in 443.7387ms 200 
+2017-04-03 11:12:47.323 -04:00 [Information] Executing action method "NADAAPI.Controllers.VendorController.List (NADAAPI)" with arguments (null) - ModelState is Valid
+2017-04-03 11:12:49.268 -04:00 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[VendorId], [c].[Name]
+FROM [Vendor] AS [c]
+ORDER BY [c].[Name]
+2017-04-03 11:12:52.650 -04:00 [Information] Executing ViewResult, running view at path "/Views/Vendor/List.cshtml".
+2017-04-03 11:12:53.033 -04:00 [Information] Executed action "NADAAPI.Controllers.VendorController.List (NADAAPI)" in 5955.9393ms
+2017-04-03 11:12:53.060 -04:00 [Information] Request finished in 7031.9847ms 200 text/html; charset=utf-8
+2017-04-03 11:13:23.731 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/api/impexium/DealershipByCompanyId?companyId=60013000&authkey=HJ3F8FH584LY9SDJ  
+2017-04-03 11:13:23.913 -04:00 [Information] Executing action method "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" with arguments (["60013000", "HJ3F8FH584LY9SDJ"]) - ModelState is Valid
+2017-04-03 11:13:58.382 -04:00 [Fatal] DealershipByCompanyId
+2017-04-03 11:14:32.147 -04:00 [Information] Executing JsonResult, writing value "System.Collections.Generic.Dictionary`2[System.String,System.Object]".
+2017-04-03 11:14:32.305 -04:00 [Information] Executed action "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" in 68547.5068ms
+2017-04-03 11:14:32.318 -04:00 [Information] Request finished in 68582.7293ms 200 application/json; charset=utf-8
+2017-04-03 11:16:58.132 -04:00 [Error] boo!!!
+2017-04-03 11:16:58.542 -04:00 [Information] User profile is available. Using '"C:\Users\skadire\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-03 11:16:59.139 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56871/  0
+2017-04-03 11:16:59.139 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/api/impexium/DealershipByCompanyId?companyId=60013000&authkey=HJ3F8FH584LY9SDJ  
+2017-04-03 11:16:59.139 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/Vendor/List  
+2017-04-03 11:16:59.534 -04:00 [Information] Request finished in 431.5992ms 200 
+2017-04-03 11:17:00.443 -04:00 [Information] Executing action method "NADAAPI.Controllers.VendorController.List (NADAAPI)" with arguments (null) - ModelState is Valid
+2017-04-03 11:17:00.500 -04:00 [Information] Executing action method "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" with arguments (["60013000", "HJ3F8FH584LY9SDJ"]) - ModelState is Valid
+2017-04-03 11:17:02.294 -04:00 [Information] Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[VendorId], [c].[Name]
+FROM [Vendor] AS [c]
+ORDER BY [c].[Name]
+2017-04-03 11:17:05.994 -04:00 [Information] Executing ViewResult, running view at path "/Views/Vendor/List.cshtml".
+2017-04-03 11:17:06.594 -04:00 [Information] Executed action "NADAAPI.Controllers.VendorController.List (NADAAPI)" in 6532.7343ms
+2017-04-03 11:17:13.489 -04:00 [Information] Request finished in 14417.1963ms 200 text/html; charset=utf-8
+2017-04-03 11:17:13.491 -04:00 [Error] DealershipByCompanyId  Company : {0}60013000
+2017-04-03 11:17:13.509 -04:00 [Information] Executing JsonResult, writing value "System.Collections.Generic.Dictionary`2[System.String,System.Object]".
+2017-04-03 11:17:13.645 -04:00 [Information] Executed action "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" in 13596.4155ms
+2017-04-03 11:17:13.650 -04:00 [Information] Request finished in 14579.8489ms 200 application/json; charset=utf-8
+2017-04-03 11:24:05.734 -04:00 [Error] boo!!!
+2017-04-03 11:24:06.165 -04:00 [Information] User profile is available. Using '"C:\Users\skadire\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-03 11:24:06.955 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/Vendor/List  
+2017-04-03 11:24:06.954 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56871/  0
+2017-04-03 11:24:07.274 -04:00 [Information] Request finished in 353.1656ms 200 
+2017-04-03 11:24:08.117 -04:00 [Information] Executing action method "NADAAPI.Controllers.VendorController.List (NADAAPI)" with arguments (null) - ModelState is Valid
+2017-04-03 11:24:10.368 -04:00 [Information] Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[VendorId], [c].[Name]
+FROM [Vendor] AS [c]
+ORDER BY [c].[Name]
+2017-04-03 11:24:11.472 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/api/impexium/DealershipByCompanyId?companyId=60013000&authkey=HJ3F8FH584LY9SDJ  
+2017-04-03 11:24:11.715 -04:00 [Information] Executing action method "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" with arguments (["60013000", "HJ3F8FH584LY9SDJ"]) - ModelState is Valid
+2017-04-03 11:24:25.863 -04:00 [Information] Executed action "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" in 14359.2706ms
+2017-04-03 11:24:25.900 -04:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId(String companyId, String authKey) in C:\Users\skadire\OneDrive - NADA Services Corp\WebApplications\NadaAPI\NADAAPI\src\NADAAPI\Controllers\ImpexiumController.cs:line 210
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-04-03 11:24:26.160 -04:00 [Information] Request finished in 14689.0156ms 500 text/html; charset=utf-8
+2017-04-03 11:24:27.392 -04:00 [Information] Executing ViewResult, running view at path "/Views/Vendor/List.cshtml".
+2017-04-03 11:24:27.793 -04:00 [Information] Executed action "NADAAPI.Controllers.VendorController.List (NADAAPI)" in 19918.4427ms
+2017-04-03 11:24:27.806 -04:00 [Information] Request finished in 20901.6665ms 200 text/html; charset=utf-8
+2017-04-03 12:20:17.602 -04:00 [Error] boo!!!
+2017-04-03 12:20:18.078 -04:00 [Information] User profile is available. Using '"C:\Users\skadire\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-04-03 12:20:18.925 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/api/impexium/DealershipByCompanyId?companyId=60013000&authkey=HJ3F8FH584LY9SDJ  
+2017-04-03 12:20:18.918 -04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56871/  0
+2017-04-03 12:20:18.918 -04:00 [Information] Request starting HTTP/1.1 GET http://localhost:56871/Vendor/List  
+2017-04-03 12:20:19.194 -04:00 [Information] Request finished in 344.9273ms 200 
+2017-04-03 12:20:20.075 -04:00 [Information] Executing action method "NADAAPI.Controllers.VendorController.List (NADAAPI)" with arguments (null) - ModelState is Valid
+2017-04-03 12:20:20.152 -04:00 [Information] Executing action method "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" with arguments (["60013000", "HJ3F8FH584LY9SDJ"]) - ModelState is Valid
+2017-04-03 12:20:21.615 -04:00 [Information] Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[VendorId], [c].[Name]
+FROM [Vendor] AS [c]
+ORDER BY [c].[Name]
+2017-04-03 12:20:24.824 -04:00 [Information] Executing ViewResult, running view at path "/Views/Vendor/List.cshtml".
+2017-04-03 12:20:25.131 -04:00 [Information] Executing JsonResult, writing value "System.Collections.Generic.Dictionary`2[System.String,System.Object]".
+2017-04-03 12:20:25.386 -04:00 [Information] Executed action "NADAAPI.Controllers.ImpexiumController.DealershipByCompanyId (NADAAPI)" in 5584.1271ms
+2017-04-03 12:20:25.392 -04:00 [Information] Executed action "NADAAPI.Controllers.VendorController.List (NADAAPI)" in 5586.2345ms
+2017-04-03 12:20:25.406 -04:00 [Information] Request finished in 6574.3396ms 200 application/json; charset=utf-8
+2017-04-03 12:20:25.416 -04:00 [Information] Request finished in 6585.3074ms 200 text/html; charset=utf-8

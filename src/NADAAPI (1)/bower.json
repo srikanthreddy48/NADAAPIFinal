@@ -1,0 +1,7 @@
+{
+	"name": "asp.net",
+	"private": true,
+  "dependencies": {
+    "materialize": "~0.98.2"
+  }
+}

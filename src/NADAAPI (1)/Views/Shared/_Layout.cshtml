@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <title>NADA's WebAPI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    @*<link href="~/lib/materialize/dist/css/materialize.css" rel="stylesheet" />*@
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    @*<script src="~/lib/materialize/dist/js/materialize.js"></script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="~/lib/Site.css"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style> .result-message button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    color: #fff;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo left">NADA'S Web Api</a>
+            <ul class="right">
+                <li><a asp-area="" asp-controller="Vendor" asp-action="List">Vendors</a></li>
+                <li><a asp-area="" asp-controller="EndPoints" asp-action="GetEndpoints">EndPoints</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="ResultMessage" class="result-message"></div>
+   
+      @RenderBody()
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            @if (TempData["Result"] != null)
+            {
+
+            @if (TempData["Result"].ToString() == "0")
+                {
+                    <text>
+            var res = "";
+            res += '<div class="card green accent-3"> \
+                            <div class="card-content white-text"> \
+                                <blockquote>' + '@TempData["ResultMessage"]' + '</blockquote> \
+                            </div> \
+                        </div>';
+            $('#ResultMessage').html(res);
+            $('#ResultMessage' + ' .card').append($('<button>', {
+                'class': 'close',
+                'type': 'button',
+                'data-dismiss': 'alert',
+                'aria-label': 'Close',
+                click: function () { $(this).closest('#ResultMessage').fadeOut("fast"); $(this).closest(result).empty(); }
+
+            })
+
+            .append($('<span>', {
+                'aria-hidden': 'true'
+            }).html('x'))
+            );
+            $('#ResultMessage').fadeIn();
+            $('html, body').animate({ scrollTop: $('#ResultMessage').offset().top + -400 }, 'slow');
+            </text>
+                }
+                else
+                {
+                             <text>
+            var res = "";
+
+            res += '<div class="card red accent-3"> \
+                            <div class="card-content white-text"> \
+                                <blockquote>' + '@TempData["Result"]' + ' Error: ' + '@TempData["ResultMessage"]' + '</blockquote> \
+                            </div> \
+                        </div>';
+            $('#ResultMessage').html(res);
+            $('#ResultMessage' + ' .card').append($('<button>', {
+                'class': 'close',
+                'type': 'button',
+                'data-dismiss': 'alert',
+                'aria-label': 'Close',
+                click: function () { $(this).closest('#ResultMessage').fadeOut("fast"); $(this).closest('#ResultMessage').empty(); }
+
+            })
+
+            .append($('<span>', {
+                'aria-hidden': 'true'
+            }).html('x'))
+            );
+            $('#ResultMessage').fadeIn();
+            $('html, body').animate({ scrollTop: $('#ResultMessage').offset().top + -400 }, 'slow');
+
+            </text>
+                }
+            @if (TempData["ResultMessage"] != null)  {
+                 <text>
+
+
+            </text>
+         }
+            }
+        });
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

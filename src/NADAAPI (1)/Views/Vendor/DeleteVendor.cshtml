@@ -1,0 +1,26 @@
+﻿@model VendorListViewModel
+
+<br />
+    <div class="nav-wrapper white">
+        <div class="col s12">
+            <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+            <a asp-action="DeleteVendor"  asp-controller="Vendor" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.Name</a>
+        </div>
+    </div>
+
+<form asp-controller="Vendor" asp-action="DeleteVendor" method="post" class="col-s06">
+    
+    <input type="hidden" name="VendorId" id="VendorId" value="@Model.VendorId" />
+    
+    <div class="row">
+        <h5 asp-for="Name">@Model.Name</h5>
+    </div>
+
+    <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+            Delete
+            <i class="material-icons right"></i>
+        </button>
+    </div>
+
+</form>

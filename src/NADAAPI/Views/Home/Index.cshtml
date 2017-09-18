@@ -1,0 +1,57 @@
+﻿@model AccountViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <br />
+    @*<h5>@Model.VendorName</h5>*@
+   
+        <div class="nav-wrapper white ">
+            <div class="col s12">
+                <a asp-controller="Vendor" asp-action="List" class="breadcrumb light-blue-text">Vendors</a>
+                <a asp-action="Index" asp-controller="Home" asp-route-id="@Model.VendorId" class="breadcrumb light-blue-text">@Model.VendorName</a>
+            </div>
+        </div>
+   
+    <h5>User Accounts</h5>
+    <br />
+    <div class="panel panel-primary">
+        <div class="panel-body">
+
+            <div class="top-buffer"></div>
+            <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                    @foreach (var user in Model.ApplicationUsers)
+                    {
+                        <tr>
+
+                            <td>@Html.DisplayFor(modelItem => user.UserName)</td>
+                            <td>
+                                <a id="editVendorModal" data-toggle="modal" asp-action="EditUser" asp-controller="Home" asp-route-id="@user.Id" asp-route-vendorId="@Model.VendorId"  data-target="#modal-action-student"
+                                   class="btn btn-info">
+                                    <i class="glyphicon glyphicon-pencil"></i>  Edit
+                                </a>
+                                <a  asp-action="DeleteUser" asp-controller="Home" asp-route-id="@user.Id" asp-route-Email="@user.Email" asp-route-vendorId="@Model.VendorId"  data-target="#modal-action-student" class="btn btn-danger">
+                                    <i class="glyphicon glyphicon-trash"></i>  Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <br />
+    <br />
+    <div class="btn-group">
+        <a id="createEditVendortModal" data-toggle="modal" asp-action="EditUser" asp-controller="Home" asp-route-Id="@Model.MemberId" asp-route-vendorId="@Model.VendorId"  data-target="#modal-action-student" class="btn btn-primary">
+            <i class="glyphicon glyphicon-plus"></i>  Create User
+        </a>
+    </div>
+</body>
+</html>
+
+
